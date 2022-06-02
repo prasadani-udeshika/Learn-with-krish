@@ -1,0 +1,11 @@
+{
+  "name": "execrise-1",
+  "version": "1.0.0",
+  "description": "Find missing number in given array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prasadani Sakalasuriya",
+  "license": "ISC"
+}
