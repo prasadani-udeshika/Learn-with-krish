@@ -1,4 +1,4 @@
-var n = [21,25,29,28,22,24,27,26,30],
+var n = [21,25,29,28,22,24,27,26],
   count = n[n.length - 1];
 var FindMissingVal = [];
 for ( var i = 21; i <= count; i++ ) {
