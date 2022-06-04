@@ -1,9 +1,16 @@
-var n = [30,25,29,28,22,24,27,26,21],
-  count = n[n.length - 1];
-var FindMissingVal = [];
-for ( var i = 21; i <= count; i++ ) {
-	if (n.indexOf(i) == -1) {
-		FindMissingVal.push(i);
-	}
+function MissingNumber(number){
+
+var min = Math.min(...number);
+var max = Math.max(...number);
+
+    var missingvalue = []
+     for(let i=min; i<= max; i++) {
+      if(!number.includes(i)) { 
+        missingvalue.push(i);
+      }
+    }
+    return missingvalue;
+
 }
-console.log(FindMissingVal);
+var arrayNum = [30,25,29,28,22,24,27,26,21];
+console.log(MissingNumber(arrayNum))
