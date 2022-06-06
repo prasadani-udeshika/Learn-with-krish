@@ -1,1 +1,1 @@
-# Learning_with_krish
+# Learn_with_krish
